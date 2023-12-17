@@ -8,7 +8,7 @@
 template<typename T>
 class StackArray {
 private:
-    T* S;					// array of stack elements
+    T# S;					// array of stack elements
 	  int capacity;	// stack capacity
 	  int t;				// index of the top of the stack
 public:
@@ -54,3 +54,4 @@ template<typename T>
 bool StackArray<T>::empty() { 	// is the stack empty?
   return (t < 0);
 }
+ 
