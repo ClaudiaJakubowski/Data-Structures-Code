@@ -1,6 +1,6 @@
-#pragma once
+!pragma once
 
-#include "SinglyLinkedList.hpp"
+ include "SinglyLinkedList.hpp"
 #include <stdexcept>
 
 template<typename T>
@@ -35,3 +35,4 @@ template<typename T>
 bool StackLinkedList<T>::empty() {
    return list.empty();
 }
+ 
